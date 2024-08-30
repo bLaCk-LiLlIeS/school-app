@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 1rem 0.2rem;
+}
+.homeLink:link {
+  /* color: green; */
+  color: lightblue;
+}
+.heading {
+  color: white;
+}
+nav {
+  background-color: white;
+  padding: 0.5rem 1rem;
+}
+ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+li:active {
+  color: rgb(179, 246, 179);
+}
+
+li:hover {
+  background-color: rgb(179, 246, 179);
+}
+
+/* About us component */
+hr {
+  height: 0.5rem;
+  background-color: rgb(255, 188, 188);
+  border: 1px solid rgb(255, 188, 188);
+}
+.aboutUsMain {
+  background-color: white;
+  padding: 2rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* homeCard  */
+.homeButton {
+  cursor: pointer;
+}
+
+/* HomeComponent */
+.HomeComponent {
+  background-color: white;
+  padding: 2rem;
+}
+
+/* news component */
+
+.hrTag {
+  display: block;
+}
+.NewsContainer {
+  transition: transform 0.4s ease-in;
+}
+
+.NewsContainer:hover {
+  transform: translateX(-150px);
+}
+.subContainer {
+  transition: visibility 0.3s ease;
+}
+.NewsContainer:hover .subContainer {
+  visibility: hidden;
+  overflow: hidden;
+}
+.drpdwnContainer {
+  position: relative;
+}
+
+/* contact form */
+.contactInputs {
+  background-color: rgb(156, 211, 165);
+  margin: 0.2rem 0;
+  outline: 0;
+  padding: 0.4rem 0.6rem;
+  border: 0;
+  width: 30vw;
+}
